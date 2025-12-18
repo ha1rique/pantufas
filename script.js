@@ -20,7 +20,7 @@ function comprar() {
 
   const mensagem = `Olá! Quero comprar:\n${produto}\nTamanho: ${tamanho}\nPreço: R$ ${preco}`;
 
-  const telefone = "55SEUNUMEROAQUI";
+  const telefone = "55996982704";
   window.open(`https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`);
 
   window.location.href = "sucesso.html";
